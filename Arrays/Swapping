@@ -1,0 +1,14 @@
+//Exchange the values of two elements at given positions in the array.
+
+public class ArraySwap {
+    public static void main(String[] args) {
+        int[] arr = {1, 2, 3, 4};
+        int temp = arr[1]; // swap index 1 and 3
+        arr[1] = arr[3];
+        arr[3] = temp;
+
+        for (int num : arr) {
+            System.out.print(num + " ");
+        }
+    }
+}
